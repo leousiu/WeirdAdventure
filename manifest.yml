@@ -2,3 +2,5 @@
   - name: WeirdAdventure
     random-route: true
     memory: 128M
+    command: python bots.py
+    buildpack: https://github.com/cloudfoundry/python-buildpack.git
